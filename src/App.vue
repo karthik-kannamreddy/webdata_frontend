@@ -32,7 +32,7 @@ export default {
     // promises
 
     async fetchBooks(){
-      const res = await fetch('https://agreeable-gray-ox.cyclic.app/api')
+      const res = await fetch('https://karthikfinalproject.herokuapp.com/api')
       const data = await res.json()
       console.log( data )
       return data
